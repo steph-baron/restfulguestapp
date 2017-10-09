@@ -44,7 +44,6 @@ app.delete('/guests/:id', function(req, res){
       delete guests[i];
     }
   }
-
 })
 
 app.listen(3000, function(){
